@@ -117,10 +117,10 @@ export const albumsData = [
 export const songsData = [
     {
         id:0,
-        name: "Song One",
+        name: "Tauba Tauba",
         image: img1,
         file:song1,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"From 'Bad Newz'",
         duration:"3:00"
     },
     {
@@ -130,7 +130,7 @@ export const songsData = [
         file:song2,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:20"
-    },
+    },  
     {
         id:2,
         name: "Song Three",
