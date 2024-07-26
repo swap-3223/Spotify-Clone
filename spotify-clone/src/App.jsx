@@ -1,16 +1,18 @@
 import React from 'react'
 import Sidebar from './components/Sidebar'
-import Liabrary from './components/Liabrary'
 import MusicPlayer from './components/MusicPlayer'
+import Display from './components/Display'
 
 function App() {
   return (
     <>
-      <div className='w-screen h-screen bg-black text-white p-2'>
+      <div className=' h-screen bg-black  text-white p-2 flex'>
+      <div className=' flex'></div>
       <Sidebar/>
-      <Liabrary/>
-      <MusicPlayer/>
+      <Display/>
       </div>
+      <MusicPlayer/>
+
     </>
   )
 }
